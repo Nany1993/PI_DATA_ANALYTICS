@@ -34,8 +34,9 @@ if st.checkbox("Ver información de accidentes detallado en tabla"):
     st.dataframe(df_accidentes)
 
 
-if st.checkbox("Gráfico de tendencia de sobrevivientes y fallecidos en la historia"):
 
+
+if st.checkbox("Gráfico de tendencia de sobrevivientes y fallecidos en la historia"):
     Año_minimo = st.slider("Definir año mínimo", 1920, 2021, 1920)
     Año_maximo = st.slider("Definir año máximo", 1920, 2021, 2021)
 
@@ -43,18 +44,18 @@ if st.checkbox("Gráfico de tendencia de sobrevivientes y fallecidos en la histo
     datos_filtrados = df_accidentes[(df_accidentes['Año'] >= Año_minimo) & (df_accidentes['Año'] <= Año_maximo)]
 
     # Agrupar los datos por año y sumar los valores de "Sobrevivientes" y "Total_Fallecidos"
-   
     datos_por_año = datos_filtrados.groupby('Año')[['Sobrevivientes', 'Total_Fallecidos']].sum()
 
-
     # Crear el gráfico de líneas
-    datos_por_año.plot(kind='line')
+    fig, ax = plt.subplots()
+    datos_por_año.plot(kind='line', ax=ax)
 
     # Configurar los ejes y el título
-    plt.xlabel('Año')
-    plt.ylabel('Cantidad')
-    plt.title('Sobrevivientes y Fallecidos por año')
+    ax.set_xlabel('Año')
+    ax.set_ylabel('Cantidad')
+    ax.set_title('Sobrevivientes y Fallecidos por año')
 
     # Mostrar el gráfico en Streamlit
-    st.pyplot()
+    st.pyplot(fig)
+
 
