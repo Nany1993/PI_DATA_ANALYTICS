@@ -43,7 +43,9 @@ if st.checkbox("Gráfico de tendencia de sobrevivientes y fallecidos en la histo
     datos_filtrados = df_accidentes[(df_accidentes['Año'] >= Año_minimo) & (df_accidentes['Año'] <= Año_maximo)]
 
     # Agrupar los datos por año y sumar los valores de "Sobrevivientes" y "Total_Fallecidos"
-    datos_por_año = datos_filtrados.groupby('Año')['Sobrevivientes', 'Total_Fallecidos'].sum()
+   
+    datos_por_año = datos_filtrados.groupby('Año')[['Sobrevivientes', 'Total_Fallecidos']].sum()
+
 
     # Crear el gráfico de líneas
     datos_por_año.plot(kind='line')
