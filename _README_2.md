@@ -28,8 +28,8 @@ En este README encontrarán toda la documentación del proyecto de Data Analytic
 * **EDA* --> Notebook con el ETL y análisis exploratorio de los datos
 * **KPI** --> Archivo que contiene los KPI que serán estudiados en el dashboard
 * **Informe** -->
-* **main.py** -->
-* **requirements** -->
+* **main.py** --> Contiene el archivo principal de la App que contiene el informe del proyecto
+* **requirements** --> Contiene los requerimientos de la app
 
 ## Evaluación de requerimientos
 
