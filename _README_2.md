@@ -25,9 +25,9 @@ En este README encontrarán toda la documentación del proyecto de Data Analytic
 * **Recursos_PowerBI** --> *Carpeta que contiene el Dashboard de accidentes para su visualización, junto con alguno recursos usados en el. Recuerde que para poder verlo debe tener instalado Power BI en su equipo*
 * **df_accidente2** --> *Archivo exportado despúes de su proceso de ETL*
 * **diccionario** --> *Archivo con la descripción de las columnas que hacen parte del archivo de AccidentesAviones.csv*
-* **EDA* --> Notebook con el ETL y análisis exploratorio de los datos
+* **EDA** --> Notebook con el ETL y análisis exploratorio de los datos
 * **KPI** --> Archivo que contiene los KPI que serán estudiados en el dashboard
-* **Informe** -->
+* **Informe** --> deployado con streamlit, lo puedes visualizar más abajo
 * **main.py** --> Contiene el archivo principal de la App que contiene el informe del proyecto
 * **requirements** --> Contiene los requerimientos de la app
 
@@ -38,6 +38,7 @@ En este README encontrarán toda la documentación del proyecto de Data Analytic
 * [Proceso del ETL y EDA ](EDA.ipynb)
 * [Formulación de KPI](KPI.md)
 * [Dashboard Power BI](DASHBOARD_ACCIDENTES.pbix)
+* [Informe de gestión](https://nany1993-pi-data-2-main-i4gclz.streamlit.app/)
 
 ## Requerimientos
 
