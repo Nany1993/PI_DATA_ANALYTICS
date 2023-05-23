@@ -25,7 +25,8 @@ st.markdown("- Tasa de accidentalidad en actividades especificas de la aviación
 st.markdown("*En cada pagina adicional a este informe se detallan los indicadores*")
 
 st.markdown("**Hallazgos importantes:**")
-st.markdown('''**Explorando la información se visualizaron algunos valores atipicos que están por encima del umbral máximo , 
+st.markdown('''**<div style="text-align: justify">
+            Explorando la información se visualizaron algunos valores atipicos que están por encima del umbral máximo , 
             lo que indica que:**
 * *Los datos a nivel General muestran los resultados presentados desde 1908 hasta 2021, 
 podemos observar un total de accidentes registrados de 5008, que trae consigo 8530 personas fallecidas en tierra 
@@ -52,7 +53,8 @@ Douglas C-47A, Douglas C-47 y Douglas DC-4 son prominentes en la lista de avione
 
 st.markdown("**Conclusiones y recomendaciones**")
 
-st.markdown('''*1-El año 2001 tuvo un impacto significativo en términos de mortalidad en la aviación, principalmente
+st.markdown('''<div style="text-align: justify">
+            *1-El año 2001 tuvo un impacto significativo en términos de mortalidad en la aviación, principalmente
             debido a los ataques terroristas del 11 de septiembre en Estados Unidos y la trágica caída de las 
             Torres Gemelas. Estos eventos representaron un hito crucial en la historia de la industria aérea. 
             Sin embargo, como respuesta a estos sucesos, se fortalecieron los protocolos de seguridad y 
@@ -62,7 +64,8 @@ st.markdown('''*1-El año 2001 tuvo un impacto significativo en términos de mor
             para garantizar una mayor protección y prevención de incidentes en la industria.*''')
 
 
-st.markdown('''*2- Una conclusión interesante es que las rutas de vuelo con más accidentes son aquellas relacionadas 
+st.markdown('''<div style="text-align: justify">
+            *2- Una conclusión interesante es que las rutas de vuelo con más accidentes son aquellas relacionadas 
             con actividades específicas de la aviación, como entrenamiento, turismo de observación y 
             vuelos de prueba.*
             *Esto sugiere que estas actividades pueden presentar desafíos adicionales o 
@@ -71,7 +74,8 @@ st.markdown('''*2- Una conclusión interesante es que las rutas de vuelo con má
             que el proceso de formación de pilotos y tripulación de vuelo puede ser crítico en términos de 
             seguridad y requiere una atención especial para minimizar los riesgos.*''')
 
-st.markdown('''*3 -La cantidad de personas a bordo de un avión está directamente relacionada con las posibles 
+st.markdown('''<div style="text-align: justify">
+            *3 -La cantidad de personas a bordo de un avión está directamente relacionada con las posibles 
             muertes en caso de un accidente. Cuanto mayor sea el número de personas, mayor será la complejidad
             para garantizar la seguridad de todos en situaciones de emergencia. La evacuación, atención médica 
             y coordinación general se vuelven más difíciles con un mayor número de personas. Por lo tanto, 
