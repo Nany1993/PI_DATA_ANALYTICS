@@ -30,6 +30,7 @@ En este README encontrarán toda la documentación del proyecto de Data Analytic
 * **Informe** --> deployado con streamlit, lo puedes visualizar más abajo
 * **main.py** --> Contiene el archivo principal de la App que contiene el informe del proyecto
 * **requirements** --> Contiene los requerimientos de la app
+* **Presentación Dashboard:** *Archivo en Word que explica el contenido del dashboard de accidentes realizado en power BI*
 
 ## Evaluación de requerimientos
 
