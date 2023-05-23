@@ -4,7 +4,7 @@ import pandas as pd
 estilo_css = """
 <style>
     body {
-        color: white; /* Cambia el color de fuente */
+        color: blue; /* Cambia el color de fuente */
         background-color: #222222; /* Cambia el color de fondo */
     }
 </style>
