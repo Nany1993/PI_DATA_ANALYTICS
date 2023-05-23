@@ -76,15 +76,9 @@ st.markdown('<div style="text-align: justify"> \n\n'
 
 
 
-st.markdown('<div style="text-align: justify"> \n\n'
-            '*3 -La cantidad de personas a bordo de un avión está directamente relacionada con las posibles muertes '
-            'en caso de un accidente. Cuanto mayor sea el número de personas, mayor será la complejidad para garantizar '
-            'la seguridad de todos en situaciones de emergencia. La evacuación, atención médica y coordinación general '
-            'se vuelven más difíciles con un mayor número de personas. Por lo tanto, es esencial considerar este factor '
-            'al planificar y gestionar la seguridad aérea. La información sobre el número de pasajeros y tripulantes '
-            'ayuda a establecer medidas de seguridad adecuadas y a desarrollar estrategias para minimizar riesgos. '
-            'La cantidad de personas a bordo puede influir en la gravedad de las consecuencias de un accidente. '
-            'Es importante tener en cuenta este factor para una respuesta efectiva y para proteger a todos en '
-            'situaciones de emergencia. En resumen, más personas a bordo implican desafíos adicionales para '
-            'garantizar la seguridad en caso de un accidente aéreo. Considerar este factor es esencial para la '
-            'planificación y gestión de la seguridad aérea.</div>', unsafe_allow_html=True)
+st.markdown('''
+<div style="text-align: justify">
+*3 - La cantidad de personas a bordo de un avión está directamente relacionada con las posibles muertes en caso de un accidente. Cuanto mayor sea el número de personas, mayor será la complejidad para garantizar la seguridad de todos en situaciones de emergencia. La evacuación, atención médica y coordinación general se vuelven más difíciles con un mayor número de personas. Por lo tanto, es esencial considerar este factor al planificar y gestionar la seguridad aérea. La información sobre el número de pasajeros y tripulantes ayuda a establecer medidas de seguridad adecuadas y a desarrollar estrategias para minimizar riesgos. La cantidad de personas a bordo puede influir en la gravedad de las consecuencias de un accidente. Es importante tener en cuenta este factor para una respuesta efectiva y para proteger a todos en situaciones de emergencia. En resumen, más personas a bordo implican desafíos adicionales para garantizar la seguridad en caso de un accidente aéreo. Considerar este factor es esencial para la planificación y gestión de la seguridad aérea.*
+</div>
+''', unsafe_allow_html=True)
+
