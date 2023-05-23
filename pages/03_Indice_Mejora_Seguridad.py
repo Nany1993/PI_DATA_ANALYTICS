@@ -7,7 +7,7 @@ from matplotlib.ticker import MaxNLocator
 
 st.title("Indice de Mejora de la seguridad")
 st.markdown("**Descripción**")
-st.write("Medida de la mejora en la seguridad aérea en términos de reducción en la tasa de mortalidad anual")
+st.write("Medida de la mejora en la seguridad aérea en términos de reducción en la tasa de accidentalidad anual")
 st.markdown("**Fórmula de medición**")
 st.write("((Tasa_accidentalidad_Año_Anterior - Tasa_accidentalidad_Año_Actual) / Tasa_accidentalidad_Año_Anterior) * 100")
 st.markdown("**KPI**")
