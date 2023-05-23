@@ -24,13 +24,15 @@ st.markdown("- Tasa de accidentalidad en actividades especificas de la aviación
 st.markdown("*En cada pagina adicional a este informe se detallan los indicadores*")
 
 st.markdown("**Hallazgos importantes:**")
-st.markdown('''**Explorando la información se visualizaron algunos valores atipicos que están por encima del umbral máximo , 
-            lo que indica que:**
-* *Los datos a nivel General muestran los resultados presentados desde 1908 hasta 2021, 
+st.markdown('''**Los datos a nivel General muestran los resultados presentados desde 1908 hasta 2021, 
 podemos observar un total de accidentes registrados de 5008, que trae consigo 8530 personas fallecidas en tierra 
 que no se encontraban en el avión, 107471 fallecidos entre tripulantes y pasajeros y 42780 sobrevivientes 
 a los accidentes. Lo cual nos lleva a concluir que los datos a nivel histórico representan una tasa de mortalidad 
-del 72%, por consecuente un índice de supervivencia del 28%.*
+del 72%, por consecuente un índice de supervivencia del 28%.**''')
+
+st.markdown('''**Explorando la información se visualizaron algunos valores atipicos que están por encima del umbral máximo , 
+            lo que indica que:**
+
 * *El 10% (508) de los accidentes tuvieron más de 600 personas a bordo entre pasajeros y tripulantes*
 * *El 10%(500) de los accidentes tuvieron más de 600 pasajeros*
 * *El 3%(151) de los acciendentes contaban con una tripulación de más de 80 personas*
@@ -40,8 +42,8 @@ del 72%, por consecuente un índice de supervivencia del 28%.*
 * *El 5%(248) de los accidentes fueron una gran catastrofe con más de 2750 muertos en tierra.*
 *El 11 de septiembre de 2001 se puede relacionar con los ataques terroristas en Estados Unidos, 
 donde varios aviones comerciales fueron secuestrados y utilizados como armas.*
-* *Las horas en que más suceden los accidentes son despúes del medio dia (11:00), 
-* *las top 5 son: 15:00, 14:00, 11:00, 17:00 y 16:00.*
+* *Las horas en que más suceden los accidentes son despúes del medio dia (11:00),las top 5 son: 15:00, 14:00, 
+11:00, 17:00 y 16:00.*
 * *las aerolineas con más accidentes presentados, top 5 con más de 45 accidentes: Aeroflot, Military U.S Air Force, 
 Air France, Deutsche Lufthansa y United Air Lines.*
 * *Las 3 rutas de vuelo con más accidentes corresponden a: Training, sightseeing y Testflight*
