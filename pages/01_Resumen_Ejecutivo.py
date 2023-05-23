@@ -27,6 +27,11 @@ st.markdown("*En cada pagina adicional a este informe se detallan los indicadore
 st.markdown("**Hallazgos importantes:**")
 st.markdown('''**Explorando la información se visualizaron algunos valores atipicos que están por encima del umbral máximo , 
             lo que indica que:**
+* *Los datos a nivel General muestran los resultados presentados desde 1908 hasta 2021, 
+podemos observar un total de accidentes registrados de 5008, que trae consigo 8530 personas fallecidas en tierra 
+que no se encontraban en el avión, 107471 fallecidos entre tripulantes y pasajeros y 42780 sobrevivientes 
+a los accidentes. Lo cual nos lleva a concluir que los datos a nivel histórico representan una tasa de mortalidad 
+del 72%, por consecuente un índice de supervivencia del 28%.*
 * *El 10% (508) de los accidentes tuvieron más de 600 personas a bordo entre pasajeros y tripulantes*
 * *El 10%(500) de los accidentes tuvieron más de 600 pasajeros*
 * *El 3%(151) de los acciendentes contaban con una tripulación de más de 80 personas*
@@ -47,9 +52,16 @@ Douglas C-47A, Douglas C-47 y Douglas DC-4 son prominentes en la lista de avione
 
 st.markdown("**Conclusiones y recomendaciones**")
 
-st.markdown('''*1- El 2001 fue el unico año con gran impacto a nivel de mortalidad, lo cual se relaciona con el 
-            secuestro de los aviones por parte de grupos terroristas en estados unidos, la catastrofe de las 
-            torres gemelas*''')
+st.markdown('''*1-El año 2001 tuvo un impacto significativo en términos de mortalidad en la aviación, principalmente
+            debido a los ataques terroristas del 11 de septiembre en Estados Unidos y la trágica caída de las 
+            Torres Gemelas. Estos eventos representaron un hito crucial en la historia de la industria aérea. 
+            Sin embargo, como respuesta a estos sucesos, se fortalecieron los protocolos de seguridad y 
+            se implementaron mejoras para prevenir y mitigar riesgos en el futuro. A partir de entonces, 
+            se observó una mejora significativa en los índices de seguridad en la aviación. 
+            El año 2001 se destaca como un punto de inflexión en la mortalidad aérea, impulsando cambios
+            para garantizar una mayor protección y prevención de incidentes en la industria.*''')
+
+
 st.markdown('''*2- Una conclusión interesante es que las rutas de vuelo con más accidentes son aquellas relacionadas 
             con actividades específicas de la aviación, como entrenamiento, turismo de observación y 
             vuelos de prueba.*
@@ -59,10 +71,15 @@ st.markdown('''*2- Una conclusión interesante es que las rutas de vuelo con má
             que el proceso de formación de pilotos y tripulación de vuelo puede ser crítico en términos de 
             seguridad y requiere una atención especial para minimizar los riesgos.*''')
 
-st.markdown('''*3 -Existe una fuerte correlación entre las personas que abordan un avión y las personas que fallecen
-            en un accidente, es decir entre más personas a bordo más muertes dado un accidente, por eso es importante
-            considerar el número de personas a bordo, tanto pasajeros como tripulantes, 
-            en relación con los resultados de seguridad en los accidentes aéreos. Estos factores pueden desempeñar 
-            un papel significativo en la gravedad de las consecuencias de un accidente y deben ser tenidos en 
-            cuenta en la planificación y gestión de la seguridad aérea.* ''')
+st.markdown('''*3 -La cantidad de personas a bordo de un avión está directamente relacionada con las posibles 
+            muertes en caso de un accidente. Cuanto mayor sea el número de personas, mayor será la complejidad
+            para garantizar la seguridad de todos en situaciones de emergencia. La evacuación, atención médica 
+            y coordinación general se vuelven más difíciles con un mayor número de personas. Por lo tanto, 
+            es esencial considerar este factor al planificar y gestionar la seguridad aérea.
+            La información sobre el número de pasajeros y tripulantes ayuda a establecer medidas de seguridad 
+            adecuadas y a desarrollar estrategias para minimizar riesgos. La cantidad de personas a bordo puede 
+            influir en la gravedad de las consecuencias de un accidente. Es importante tener en cuenta este 
+            factor para una respuesta efectiva y para proteger a todos en situaciones de emergencia. En resumen, 
+            más personas a bordo implican desafíos adicionales para garantizar la seguridad en caso de un accidente
+            aéreo. Considerar este factor es esencial para la planificación y gestión de la seguridad aérea.* ''')
             
