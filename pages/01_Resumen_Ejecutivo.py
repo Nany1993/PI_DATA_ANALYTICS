@@ -49,7 +49,7 @@ Air France, Deutsche Lufthansa y United Air Lines.*
 * *Las 3 rutas de vuelo con más accidentes corresponden a: Training, sightseeing y Testflight*
 * *Al analizar los datos, se destaca que los aviones Douglas DC-3, de Havilland Canada DHC-6 Twin Otter 300, 
 Douglas C-47A, Douglas C-47 y Douglas DC-4 son prominentes en la lista de aviones con más accidentes.*
-''')
+</div>''', unsafe_allow_html=True''')
 
 st.markdown("**Conclusiones y recomendaciones**")
 
@@ -61,7 +61,7 @@ st.markdown('''<div style="text-align: justify">
             se implementaron mejoras para prevenir y mitigar riesgos en el futuro. A partir de entonces, 
             se observó una mejora significativa en los índices de seguridad en la aviación. 
             El año 2001 se destaca como un punto de inflexión en la mortalidad aérea, impulsando cambios
-            para garantizar una mayor protección y prevención de incidentes en la industria.*''')
+            para garantizar una mayor protección y prevención de incidentes en la industria.*</div>''', unsafe_allow_html=True)
 
 
 st.markdown('''<div style="text-align: justify">
@@ -72,7 +72,7 @@ st.markdown('''<div style="text-align: justify">
             mayores riesgos en comparación con otras operaciones aéreas 
             El hecho de que la ruta de vuelo de entrenamiento tenga una alta incidencia de accidentes puede indicar 
             que el proceso de formación de pilotos y tripulación de vuelo puede ser crítico en términos de 
-            seguridad y requiere una atención especial para minimizar los riesgos.*''')
+            seguridad y requiere una atención especial para minimizar los riesgos.*</div>''', unsafe_allow_html=True)
 
 st.markdown('''<div style="text-align: justify">
             *3 -La cantidad de personas a bordo de un avión está directamente relacionada con las posibles 
@@ -85,5 +85,5 @@ st.markdown('''<div style="text-align: justify">
             influir en la gravedad de las consecuencias de un accidente. Es importante tener en cuenta este 
             factor para una respuesta efectiva y para proteger a todos en situaciones de emergencia. En resumen, 
             más personas a bordo implican desafíos adicionales para garantizar la seguridad en caso de un accidente
-            aéreo. Considerar este factor es esencial para la planificación y gestión de la seguridad aérea.* ''')
+            aéreo. Considerar este factor es esencial para la planificación y gestión de la seguridad aérea.*</div>''', unsafe_allow_html=True)
             
