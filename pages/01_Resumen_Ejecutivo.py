@@ -1,6 +1,15 @@
 import streamlit as st
 import pandas as pd 
 
+estilo_css = """
+<style>
+    body {
+        color: white; /* Cambia el color de fuente */
+        background-color: #222222; /* Cambia el color de fondo */
+    }
+</style>
+"""
+
 
 df_accidentes = pd.read_csv("df_accidente3.csv", sep=",")
 
@@ -83,3 +92,9 @@ st.markdown('''*3 -La cantidad de personas a bordo de un avión está directamen
             más personas a bordo implican desafíos adicionales para garantizar la seguridad en caso de un accidente
             aéreo. Considerar este factor es esencial para la planificación y gestión de la seguridad aérea.* ''')
             
+
+
+
+
+# Renderiza el estilo CSS
+st.markdown(estilo_css, unsafe_allow_html=True)
