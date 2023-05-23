@@ -51,8 +51,9 @@ if st.checkbox("Tabla resumen de la Tasa de accidentalidad año a año"):
 import matplotlib.pyplot as plt
 import streamlit as st
 
-if st.checkbox("Ver gráfico de dispersión"):
+import matplotlib.pyplot as plt
 
+if st.checkbox("Ver gráfico de dispersión"):
     Año_minimo = st.slider("Definir año mínimo", 1920, 2021, 1920)
     Año_maximo = st.slider("Definir año máximo", 1920, 2021, 2021)
     
@@ -63,16 +64,20 @@ if st.checkbox("Ver gráfico de dispersión"):
     frecuencia_por_año = df_filtrado['Año'].value_counts().reset_index()
     frecuencia_por_año.columns = ['Año', 'frecuencia']
 
+    # Crear la figura y los ejes
+    fig, ax = plt.subplots()
+
     # Crear el gráfico de dispersión
-    plt.scatter(frecuencia_por_año['Año'], frecuencia_por_año['frecuencia'])
+    ax.scatter(frecuencia_por_año['Año'], frecuencia_por_año['frecuencia'])
 
     # Configurar los ejes y el título
-    plt.xlabel('Año')
-    plt.ylabel('Frecuencia de accidentes')
-    plt.title('Frecuencia de accidentes por año')
+    ax.set_xlabel('Año')
+    ax.set_ylabel('Frecuencia de accidentes')
+    ax.set_title('Frecuencia de accidentes por año')
 
     # Mostrar el gráfico en Streamlit
-    st.pyplot()
+    st.pyplot(fig)
+
 
 
 
