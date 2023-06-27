@@ -19,7 +19,7 @@ En este README encontrarán toda la documentación del proyecto de Data Analytic
 
 **Archivos que encontrarás en este repositorio**
 
-* **README_2.md** --> *Introducción del proyecto y contexto*
+* **README.md** --> *Introducción del proyecto y contexto*
 * **AccidentesAviones.csv** --> *Archivo original del proyecto*
 * **Recursos_PowerBI** --> *Carpeta que contiene el Dashboard de accidentes para su visualización, junto con alguno recursos usados en el. Recuerde que para poder verlo debe tener instalado Power BI en su equipo*
 * **df_accidente2** --> *Archivo exportado despúes de su proceso de ETL*
